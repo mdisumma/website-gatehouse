@@ -44,14 +44,14 @@ img {
 }
 .door {
 	height: 100vh;
-	width: 100vw;
+	width: 50vw;
 	background-color: rgb(150, 150, 150);
 	z-index: 9;
 }
 .leftOpen {
 	position: absolute;
 	top: 0;
-	left: -100%;
+	left: -50%;
 	transition: 0.5s ease-in-out;
 }
 .left {
@@ -63,7 +63,7 @@ img {
 .rightOpen {
 	position: absolute;
 	top: 0;
-	right: -100%;
+	right: -50%;
 	transition: 0.5s ease-in-out;
 }
 .right {
