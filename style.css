@@ -27,13 +27,14 @@ button {
 	z-index: 100;
 }
 main {
-	position: absolute;
+	position: relative;
 	top: 10vh;
 	height: 80vh;
 	width: 100vw;
 	background-color: rgb(250, 250, 250);
 }
 figure {
+	margin: 0;
 	height: 100%;
 	display: flex;
 	align-items: center;
@@ -44,26 +45,29 @@ img {
 .door {
 	height: 100vh;
 	width: 50vw;
-	position: absolute;
 	background-color: rgb(150, 150, 150);
 	z-index: 9;
 }
 .leftOpen {
+	position: absolute;
 	top: 0;
 	left: -50%;
 	transition: 0.5s ease-in-out;
 }
-.rightOpen {
-	top: 0;
-	right: -50%;
-	transition: 0.5s ease-in-out;
-}
 .left {
+	position: absolute;
 	top: 0;
 	left: 0;
 	transition: 0.5s ease-in-out;
 }
+.rightOpen {
+	position: absolute;
+	top: 0;
+	right: -50%;
+	transition: 0.5s ease-in-out;
+}
 .right {
+	position: absolute;
 	top: 0;
 	right: 0;
 	transition: 0.5s ease-in-out;
