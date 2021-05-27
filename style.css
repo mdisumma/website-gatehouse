@@ -51,12 +51,12 @@ img {
 }
 .leftOpen {
 	top: 0;
-	left: -45%;
+	left: -50%;
 	transition: 1s;
 }
 .rightOpen {
 	top: 0;
-	right: -45%;
+	right: -50%;
 	transition: 1s;
 }
 .left {
