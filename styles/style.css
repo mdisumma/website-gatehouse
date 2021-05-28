@@ -43,7 +43,7 @@ header {
 	z-index: 50;
 }
 button {
-	border: none;
+	border: 1px rgb(175, 175, 175) solid;
 	padding: 2em;
 	text-align: center;
 	color: white;
