@@ -5,15 +5,17 @@
   <meta charset="utf-8">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <title>game testing</title>
-  <link rel="stylesheet" href="TemplateData/style.css">
-  <link rel="stylesheet" href="TemplateData/door.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="unix.css">
   <script src="door.js" defer></script>
   <script src="unix.js" defer></script>
 </head>
 
 <body>
   <header>
-    <button>open</button>
+    <button class="home">home</button>
+    <button class="play">play</button>
+    <button class="abaut">about</button>
   </header>
   <main>
     <div class="door left leftOpen"></div>
@@ -27,15 +29,11 @@
           <div id="unity-progress-bar-full"></div>
         </div>
       </div>
-      <div id="unity-mobile-warning">
-        WebGL builds are not supported on mobile devices.
-      </div>
       <div id="unity-footer">
-        <div id="unity-webgl-logo"></div>
-        <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">ProtoptypeGame</div>
+        <button id="unity-fullscreen-button">fullscreen</button>
       </div>
     </div>
+
   </main>
   <footer></footer>
 

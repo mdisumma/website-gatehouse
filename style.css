@@ -37,8 +37,15 @@ header {
 }
 button {
 	border: none;
+	margin: 1em;
 	height: 50px;
 	width: 50px;
+	border-radius: 50%;
+	z-index: 30;
+}
+.play {
+	height: 70px;
+	width: 70px;
 	border-radius: 50%;
 	z-index: 30;
 }
