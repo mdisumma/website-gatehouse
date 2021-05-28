@@ -1,0 +1,27 @@
+.door {
+	height: 100%;
+	width: 50vw;
+	position: absolute;
+	background-color: rgb(150, 150, 150);
+	z-index: 10;
+}
+.leftOpen {
+	top: 0;
+	left: -50%;
+	transition: 0.5s ease-out;
+}
+.left {
+	top: 0;
+	left: 0;
+	transition: 0.5s ease-out;
+}
+.rightOpen {
+	top: 0;
+	right: -50%;
+	transition: 0.5s ease-out;
+}
+.right {
+	top: 0;
+	right: 0;
+	transition: 0.5s ease-out;
+}
