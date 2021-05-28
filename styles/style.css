@@ -87,7 +87,7 @@ footer {
 #unity-loading-bar {
 	position: absolute;
 	left: calc((100% - 154px) / 2);
-	top: 030%;
+	top: 40%;
 	z-index: 100;
 }
 #unity-logo {
