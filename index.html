@@ -5,34 +5,37 @@
   <meta charset="utf-8">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <title>game testing</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="unix.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/unix.css">
   <script src="door.js" defer></script>
   <script src="unix.js" defer></script>
 </head>
 
 <body>
   <header>
-    <button class="home">home</button>
-    <button class="play">play</button>
-    <button class="abaut">about</button>
+    <a href="#home" class="home">home</a>
+    <a href="#play" class="play">play</a>
+    <a href="#about" class="abaut">about</a>
   </header>
-  <main>
-    <div class="door left leftOpen"></div>
-    <div class="door right rightOpen"></div>
+  <div class="door left leftOpen"></div>
+  <div class="door right rightOpen"></div>
 
-    <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas"></canvas>
-      <div id="unity-loading-bar">
-        <div id="unity-logo"></div>
-        <div id="unity-progress-bar-empty">
-          <div id="unity-progress-bar-full"></div>
-        </div>
-      </div>
-      <div id="unity-footer">
+  <div id="unity-loading-bar">
+    <div id="unity-logo"></div>
+    <div id="unity-progress-bar-empty">
+      <div id="unity-progress-bar-full"></div>
+    </div>
+  </div>
+
+  <main>
+    <!-- <section id="home">home</section> -->
+    <section id="play">
+      <div id="unity-container" class="unity-desktop">
+        <canvas id="unity-canvas"></canvas>
         <button id="unity-fullscreen-button">fullscreen</button>
       </div>
-    </div>
+    </section>
+    <!-- <section id="about">about</section> -->
 
   </main>
   <footer></footer>

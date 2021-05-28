@@ -1,0 +1,118 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+.door {
+	height: 100%;
+	width: 50vw;
+	position: fixed;
+	background-color: rgb(150, 150, 150);
+	z-index: 10;
+}
+.leftOpen {
+	top: 0;
+	left: -50%;
+	transition: 0.5s ease-out;
+}
+.left {
+	top: 0;
+	left: 0;
+	transition: 0.5s ease-out;
+}
+.rightOpen {
+	top: 0;
+	right: -50%;
+	transition: 0.5s ease-out;
+}
+.right {
+	top: 0;
+	right: 0;
+	transition: 0.5s ease-out;
+}
+header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 10vh;
+	background-color: rgb(175, 175, 175);
+	position: fixed;
+	top: 0px;
+	left: 0;
+	z-index: 50;
+}
+a {
+	padding: 2em;
+	text-align: center;
+	color: white;
+	z-index: 30;
+}
+main {
+	display: flex;
+
+	background-color: rgb(250, 250, 250);
+}
+section {
+	position: absolute;
+	height: 80vh;
+	width: 100vw;
+	top: 10vh;
+	left: 0;
+	z-index: 5;
+}
+
+footer {
+	width: 100%;
+	height: 10vh;
+	background-color: rgb(175, 175, 175);
+	position: fixed;
+	bottom: 0;
+	z-index: 50;
+}
+/* UNITY */
+#unity-container {
+	height: 80vh;
+	width: 100vw;
+}
+#unity-container.unity-desktop {
+	left: 0;
+	top: 10vh;
+}
+
+#unity-canvas {
+	background: #ffffff;
+}
+
+#unity-loading-bar {
+	position: absolute;
+	left: calc((100% - 154px) / 2);
+	top: 030%;
+	z-index: 100;
+}
+#unity-logo {
+	width: 154px;
+	height: 130px;
+	background: url("../TemplateData/unity-logo-dark.png") no-repeat center;
+}
+#unity-progress-bar-empty {
+	width: 141px;
+	height: 18px;
+	margin-top: 10px;
+	background: url("../TemplateData/progress-bar-empty-dark.png") no-repeat
+		center;
+}
+#unity-progress-bar-full {
+	width: 0%;
+	height: 18px;
+	margin-top: 10px;
+	background: url("../TemplateData/progress-bar-full-dark.png") no-repeat center;
+}
+#unity-fullscreen-button {
+	position: absolute;
+	bottom: 1em;
+	left: 1em;
+	width: 80px;
+	height: 80px;
+	z-index: 9;
+}
