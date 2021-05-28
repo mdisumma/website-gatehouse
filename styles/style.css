@@ -31,9 +31,6 @@ body {
 	transition: 0.5s ease-out;
 }
 header {
-	display: flex;
-	align-items: center;
-	justify-content: center;
 	width: 100%;
 	height: 10vh;
 	background-color: rgb(175, 175, 175);
@@ -42,11 +39,16 @@ header {
 	left: 0;
 	z-index: 50;
 }
-button {
+ul {
+	display: flex;
+	justify-content: center;
+}
+li {
 	border: 1px rgb(175, 175, 175) solid;
 	padding: 2em;
 	text-align: center;
 	color: white;
+	list-style: none;
 	background-color: rgb(150, 150, 150);
 	z-index: 30;
 }
