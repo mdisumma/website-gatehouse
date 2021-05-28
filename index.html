@@ -1,36 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
 
 <head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-   <link rel="stylesheet" href="door.css">
-   <link rel="stylesheet" href="style.css">
-
-   <script src="script.js" defer></script>
-
-   <title>gatehouse-scrap</title>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>game testing</title>
+  <link rel="stylesheet" href="TemplateData/style.css">
+  <link rel="stylesheet" href="TemplateData/door.css">
+  <script src="door.js" defer></script>
+  <script src="unix.js" defer></script>
 </head>
 
 <body>
-   <header>
-      <button>open</button>
-   </header>
+  <header>
+    <button>open</button>
+  </header>
+  <main>
+    <div class="door left leftOpen"></div>
+    <div class="door right rightOpen"></div>
 
-   <main>
-
-      <div class="door left leftOpen"></div>
-      <div class="door right rightOpen"></div>
-
-      <figure><img src="images/logo--caracter.svg"></figure>
-
-   </main>
-
-   <footer></footer>
-
-
+    <div id="unity-container" class="unity-desktop">
+      <canvas id="unity-canvas"></canvas>
+      <div id="unity-loading-bar">
+        <div id="unity-logo"></div>
+        <div id="unity-progress-bar-empty">
+          <div id="unity-progress-bar-full"></div>
+        </div>
+      </div>
+      <div id="unity-mobile-warning">
+        WebGL builds are not supported on mobile devices.
+      </div>
+      <div id="unity-footer">
+        <div id="unity-webgl-logo"></div>
+        <div id="unity-fullscreen-button"></div>
+        <div id="unity-build-title">ProtoptypeGame</div>
+      </div>
+    </div>
+  </main>
+  <footer></footer>
 
 </body>
 
