@@ -17,7 +17,6 @@ body {
 .foor img {
 	padding-top: 5vh;
 	width: 100%;
-	object-fit: cover;
 }
 
 .leftOpen {
