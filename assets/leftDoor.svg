@@ -1,14 +1,14 @@
-<svg id="LeftDoor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 419 688">
+<svg id="LeftDoor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 700">
   <defs>
     <style>
       .cls-1 {
-        fill:rgb(150,150,150);
+        fill: #ccc;
       }
     </style>
   </defs>
   <g id="fron">
-    <path class="cls-1" d="M416,385.81,0,688H419V387.33A1.87,1.87,0,0,0,416,385.81Z" transform="translate(0 0)"/>
-    <polygon class="cls-1" points="419 332 419 360 0 664 0 28 419 332"/>
-    <polygon class="cls-1" points="418.99 304.02 0 0 419 0 418.99 304.02"/>
+    <polygon class="cls-1" points="450 400 1 700 450 700 450 400"/>
+    <polygon class="cls-1" points="450 348 0 648 0 50 450 348"/>
+    <polygon class="cls-1" points="450 299 1 0 450 0 450 299"/>
   </g>
 </svg>
