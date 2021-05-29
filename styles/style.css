@@ -8,7 +8,7 @@ body {
 	height: 90vh;
 	width: 50vw;
 	position: fixed;
-	background-color: rgb(170, 170, 170);
+	background-color: rgb(75, 75, 75);
 	z-index: 10;
 }
 .door img {
