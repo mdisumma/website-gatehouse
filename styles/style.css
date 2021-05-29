@@ -4,12 +4,21 @@ body {
 }
 
 .door {
+	display: flex;
+	align-items: center;
+	box-sizing: border-box;
+	padding: 1em;
 	height: 100%;
 	width: 50vw;
 	position: fixed;
-	background-color: rgb(150, 150, 150);
+	background-color: rgb(91, 91, 91);
 	z-index: 10;
 }
+.foor img {
+	padding-top: 5vh;
+	width: 100%;
+}
+
 .leftOpen {
 	top: 0;
 	left: -50%;
@@ -20,6 +29,7 @@ body {
 	left: 0;
 	transition: 0.5s ease-out;
 }
+
 .rightOpen {
 	top: 0;
 	right: -50%;
@@ -32,24 +42,26 @@ body {
 }
 header {
 	width: 100%;
-	height: 10vh;
-	background-color: rgb(175, 175, 175);
+	height: 5vh;
+	background-image: url(../assets/stripe.svg);
+	background-color: rgb(75, 75, 75);
 	position: fixed;
 	top: 0px;
 	left: 0;
 	z-index: 50;
 }
 ul {
+	padding: 0;
 	display: flex;
 	justify-content: center;
 }
 li {
-	border: 1px rgb(175, 175, 175) solid;
-	padding: 2em;
+	border: 1px black solid;
+	padding: 0.5em;
 	text-align: center;
 	color: white;
 	list-style: none;
-	background-color: rgb(150, 150, 150);
+	background-color: rgb(75, 75, 75);
 	z-index: 30;
 }
 main {
@@ -67,9 +79,10 @@ section {
 }
 
 footer {
+	background-image: url(../assets/stripe.svg);
 	width: 100%;
-	height: 10vh;
-	background-color: rgb(175, 175, 175);
+	height: 5vh;
+	background-color: rgb(75, 75, 75);
 	position: fixed;
 	bottom: 0;
 	z-index: 50;
