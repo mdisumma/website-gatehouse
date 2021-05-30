@@ -69,14 +69,14 @@ section {
 	width: 100vw;
 }
 #about {
-	background-color: red;
+	background-color: rgb(75, 75, 75);
 	z-index: 0;
 }
 #unity-container {
 	z-index: 0;
 }
 #support {
-	background-color: chartreuse;
+	background-color: rgb(75, 75, 75);
 	z-index: 0;
 }
 
