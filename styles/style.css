@@ -65,20 +65,28 @@ li {
 section {
 	text-align: center;
 	color: white;
+	background-color: rgb(75, 75, 75);
 	position: absolute;
 	padding-top: 5vh;
 	height: 90vh;
 	width: 100vw;
 }
 #about {
-	background-color: rgb(75, 75, 75);
 	z-index: 0;
+}
+#about img {
+	padding: 3em;
+	width: 300px;
+}
+#about p {
+	padding: 3em;
+	margin: 0 auto;
+	width: 500px;
 }
 #unity-container {
 	z-index: 0;
 }
 #support {
-	background-color: rgb(75, 75, 75);
 	z-index: 0;
 }
 
