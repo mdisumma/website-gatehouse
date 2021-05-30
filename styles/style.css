@@ -17,6 +17,7 @@ header {
 	left: 0;
 	z-index: 20;
 }
+
 h1 {
 	margin: 0;
 	padding: 10px;
@@ -99,9 +100,19 @@ section {
 	color: white;
 	background-color: rgb(75, 75, 75);
 	position: absolute;
-	padding-top: 5vh;
+	padding-top: 10vh;
 	height: 90vh;
 	width: 100vw;
+}
+section img {
+	padding: 3em;
+	width: 200px;
+}
+section p {
+	text-align: center;
+	width: 500px;
+	margin: 0 auto;
+	padding: 1em;
 }
 #about {
 	z-index: 0;
@@ -111,18 +122,6 @@ section {
 }
 #support {
 	z-index: 0;
-}
-
-#about img,
-#support img {
-	padding: 3em;
-	width: 300px;
-}
-#about p,
-#support p {
-	padding: 1em;
-	margin: 0 auto;
-	width: 500px;
 }
 
 footer {
