@@ -74,11 +74,13 @@ section {
 #about {
 	z-index: 0;
 }
-#about img {
+#about img,
+#support img {
 	padding: 3em;
 	width: 300px;
 }
-#about p {
+#about p,
+#support p {
 	padding: 3em;
 	margin: 0 auto;
 	width: 500px;
