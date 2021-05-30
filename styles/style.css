@@ -74,6 +74,13 @@ section {
 #about {
 	z-index: 0;
 }
+#unity-container {
+	z-index: 0;
+}
+#support {
+	z-index: 0;
+}
+
 #about img,
 #support img {
 	padding: 3em;
@@ -84,12 +91,6 @@ section {
 	padding: 3em;
 	margin: 0 auto;
 	width: 500px;
-}
-#unity-container {
-	z-index: 0;
-}
-#support {
-	z-index: 0;
 }
 
 footer {
