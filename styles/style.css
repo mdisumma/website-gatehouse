@@ -63,6 +63,7 @@ li {
 	z-index: 30;
 }
 section {
+	color: white;
 	position: absolute;
 	padding-top: 5vh;
 	height: 90vh;
