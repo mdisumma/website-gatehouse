@@ -100,8 +100,11 @@ footer {
 }
 
 #unity-loading-bar {
+	padding: 15px;
+	border-radius: 10px;
+	background-color: rgba(0, 0, 0, 0.8);
 	position: absolute;
-	left: calc((100% - 154px) / 2);
+	left: calc((100% - 174px) / 2);
 	top: 40%;
 	z-index: 100;
 }
@@ -111,7 +114,7 @@ footer {
 	background: url("../TemplateData/unity-logo-dark.png") no-repeat center;
 }
 #unity-progress-bar-empty {
-	width: 141px;
+	width: 154px;
 	height: 18px;
 	margin-top: 10px;
 	background: url("../TemplateData/progress-bar-empty-dark.png") no-repeat
