@@ -14,11 +14,13 @@
 <body>
   <header>
     <ul>
-      <li>abaut</li>
-      <li>play</li>
-      <li>support</li>
+      <li class="about">abaut</li>
+      <li class="play">play</li>
+      <li class="support">support</li>
     </ul>
   </header>
+
+
   <div class="door left leftOpen">
     <img src="assets/leftDoor.png" alt="">
   </div>
@@ -33,16 +35,15 @@
     </div>
   </div>
 
-  <main>
-    <!-- <section id="home">home</section> -->
-    <section id="play">
-      <div id="unity-container" class="unity-desktop">
-        <canvas id="unity-canvas"></canvas>
-        <button id="unity-fullscreen-button">fullscreen</button>
-      </div>
-    </section>
-    <!-- <section id="about">about</section> -->
 
+
+  <main>
+    <section id="about"></section>
+    <section id="unity-container">
+      <canvas id="unity-canvas"></canvas>
+      <button id="unity-fullscreen-button">fullscreen</button>
+    </section>
+    <section id="support"></section>
   </main>
   <footer></footer>
 
