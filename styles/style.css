@@ -137,7 +137,6 @@ footer {
 	text-align: center;
 	position: relative;
 	bottom: calc(5vh + 2em);
-	left: 1em;
 	width: 80px;
 	height: 80px;
 	z-index: 9;
