@@ -69,3 +69,14 @@ navTrigger.addEventListener("click", (e) => {
 		}
 	}
 });
+
+const footerTrigger = document.querySelector("#footerTrigger");
+const social = document.querySelector("#social");
+footerTrigger.addEventListener("click", () => {
+	console.log(social);
+	if (social.style.bottom === "5vh") {
+		social.style.bottom = "0";
+	} else {
+		social.style.bottom = "5vh";
+	}
+});
