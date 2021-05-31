@@ -107,6 +107,7 @@ section {
 	color: white;
 	background-color: rgb(75, 75, 75);
 	position: absolute;
+	padding: 5vh;
 	height: 90vh;
 	width: 100vw;
 }
